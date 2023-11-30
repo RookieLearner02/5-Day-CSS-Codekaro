@@ -1,0 +1,200 @@
+/* 
+In this assignment, I am using Sono Font-Family , because Google useses its own closed Circuit Font Called Google Product Sans. We cannot use it as it is Google Propriotry Font.
+*/
+.box {
+  background-color: #1de592;
+  width: 600px;
+  padding: 60px 80px 100px 30px;
+  margin: 60px auto;
+  font-family: "Sono", monospace;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 0;
+  color: #151515;
+}
+
+.sub-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.box-submit {
+  font-weight: 600;
+  font-size: 21px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.main-profile{
+  border: 1px solid  #dadce0;
+  width: 600px;
+  border-radius: 12px;
+  font-family: "Sono", monospace;
+  margin: 20px auto;
+}
+.profile {
+  padding: 30px 10px 0px;
+  margin: 20px auto;
+}
+
+.profile-image-01,
+.profile-image-02 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.your-profile {
+  font-weight: 600;
+  font-size: 26px;
+  color: #151515;
+}
+
+.profiles {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444746;
+}
+
+.see-profile {
+  width: 100%;
+  border-top: 1px solid #dadce0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.see-profiles {
+  padding: 20px;
+  color: #1b73e8;
+}
+
+.features{
+  border: 1px solid #dadce0;
+  width : 500px;
+  border-radius: 12px;
+  margin: 50px auto;
+  padding: auto;
+  font-family: 'Sono', monospace;;
+}
+
+.feature-img{
+  width: 100%;
+  height: 200px;
+  border-top-right-radius:  12px;
+  border-top-left-radius: 12px;
+  /* margin-bottom: 30px; */
+}
+
+.subscribe{
+  vertical-align: auto;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+span{
+  margin-right: 10px;
+}
+
+.features-title{
+  color: #151515;
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.features-description{
+  color: #444746;
+  padding-left: 20px;
+  padding-right: 50px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.features-details{
+  color: #1b73e8;
+  width: 40%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 21px;
+  border: 1px solid #444746;
+  border-radius:  5px;
+  background-color: white;
+  margin: 10px 0 30px 20px;
+}
+
+.flodesk-login{
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  margin: 50px auto;  
+}
+
+.flodesk-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.flodesk-welcome{
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dadce0;
+  border-radius:12px ;
+  margin-bottom: 10px;
+}
+
+.login-btn{
+  background-color: #151515;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.flodesk-signup{
+  margin-top: 50px;
+  text-align: center;
+  color: #37312f;
+  font-size: 10px;
+}
+
+.signup-link,
+.terms,
+.privacy{
+  color: #4e4441;
+}
+
+.forgot-password{
+  color: #4e4441;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 50px;
+  font-size: 10px;
+}
+
+.flodesk-terms{
+  color: #4e4441;
+  font-size: 10px;
+  text-align: center;
+}
