@@ -1,0 +1,124 @@
+
+body{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.food-card{
+      width:400px;
+      padding: 20px 20px 5px 20px;
+      border: 1px solid #dadce0;
+      border-radius: 14px;
+      margin: 20px auto;
+}
+
+.food-img{
+      width: 100%;
+      border-radius:  14px;
+      position: relative;
+}
+
+.min-disc{
+      background: royalblue;
+      color: white;
+      font-weight: bold;
+      padding:0 5px;
+      font-size: 16px;
+      position: absolute;
+      bottom: 10px;
+}
+
+.order-time{
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-color: #dadce0;
+      font-weight: bold;
+      padding: 0 5px ;
+      border-radius: 5px;
+}
+
+.promoted{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: rgba(250, 246, 246, 0.918);
+      font-weight: normal;
+      font-size: 12px;
+      opacity: 0.9;
+      padding: 0 5px;
+      border-radius: 5px;
+}
+
+.food{
+      width: 100%;
+      border-radius: 14px;
+}
+
+.restaurant{
+      margin: 0;
+      font-size: 21px;
+}
+.restaurant-name{
+      margin: 0;
+}
+
+.restaurant-type{
+      margin-top: 10px;
+      color: #595a5ccc;
+}
+
+.safety{
+      border-top: 1px solid #dadce0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+}
+
+.safety-info{
+      font-weight: bold;
+      font-size:16px;
+      color: #595a5ccc;
+}
+
+.safety-cert{
+      width: 20%;
+      box-sizing: border-box;
+}
+
+.explore-country{
+      width: 600px;
+      border-radius: 14px;
+      position: relative;
+      margin: 20px auto;
+      text-align: center;
+}
+.bali{
+      width: 100%;
+      border-radius: 14px;
+}
+.explore-content{
+      padding: 5px;
+      font-weight: 500;
+      position: absolute;
+      top: 175px;
+      color: white;
+}
+
+.explore-title{
+      margin: 0;
+      font-size: 32px;
+}
+
+.explore-desc{
+      margin-top: 10px;
+}
+.explore-btn{
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: white;
+      border: none;
+      border-radius: 14px;
+}
